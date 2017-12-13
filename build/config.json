@@ -1,0 +1,59 @@
+{
+  "name": "D&D - Montag",
+  "showLog": true,
+  "cleanPartialFolder": true,
+  "paths": {
+    "partials": {
+      "dist": "./partials/"
+    },
+    "sass": {
+      "sourcePath": "./source/scss/style.scss",
+      "sourceStyleguidePath": "./source/styleguide/styleguide.scss",
+      "dist": "./dist/css/"
+    },
+    "fonts": {
+      "source": "./source/fonts/**/*.*",
+      "dist": "./dist/fonts/"
+    },
+    "patterns": "./source/components/"
+  },
+  "patterns": [
+    {
+      "name": "components",
+      "patternRegex": "[a-zA-Z0-9-@]*",
+      "nameRegex": "\/[a-zA-Z0-9-@]*.hbs",
+      "patternPrefix": ""
+    }
+  ],
+  "status": {
+    "component": {
+      "prototype": {
+        "label": "Konzept",
+        "description": "In Konzeption.",
+        "color": "#FF1B19"
+      },
+      "wip": {
+        "label": "In Arbeit",
+        "description": "In Arbeit.",
+        "color": "#FF9600"
+      },
+      "ready": {
+        "label": "Freigegeben",
+        "description": "Bereit zur Implementation",
+        "color": "#CCCB14"
+      }
+    },
+    "docs": {
+      "draft": {
+        "label": "Draft",
+        "description": "Work in progress.",
+        "color": "#FF3333"
+      },
+      "ready": {
+        "label": "Ready",
+        "description": "Ready for referencing.",
+        "color": "#29CC29"
+      }
+    }
+  }
+}

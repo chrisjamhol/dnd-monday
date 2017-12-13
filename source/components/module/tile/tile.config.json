@@ -1,0 +1,32 @@
+{
+  "name": "Kachel",
+  "status": "prototype",
+  "context": {},
+  "variants": [
+    {
+      "name": "Streifen",
+      "status": "prototype",
+      "context": {
+        "text": "<p>Ein kleiner</p><p>Text</p>",
+        "color": "#fff",
+        "stripes": {
+          "primary": "#cad100",
+          "secondary": "#cbd315"
+        },
+        "href": "http://konmedia.com",
+        "target": "_blank"
+      }
+    },
+    {
+      "name": "Hintergrundbild",
+      "status": "prototype",
+      "context": {
+        "text": "<p>Ein kleiner</p><br><p>Text</p>",
+        "color": "#fff",
+        "image": "http://placehold.it/256x168",
+        "href": "http://konmedia.com",
+        "target": "_blank"
+      }
+    }
+  ]
+}

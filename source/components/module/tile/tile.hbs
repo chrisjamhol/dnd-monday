@@ -1,0 +1,22 @@
+<a
+  href="{{ href }}"
+  target="{{ target }}"
+  class="tile"
+  style="color: {{ color }}; background-image:
+    {{#if stripes}}
+      repeating-linear-gradient(-45deg, {{ stripes.primary }}, {{ stripes.primary }} 10px, {{ stripes.secondary }} 10px, {{ stripes.secondary }} 20px)
+    {{else}}
+      {{#if image}}
+        url('{{ image }}')
+      {{/if}}
+    {{/if}}
+  "
+>
+  <div class="tile__content">
+
+    {{#if text}}
+      <div class="tile__text{{#if image}} tile__text--background{{/if}}">{{{ text }}}</div>
+    {{/if}}
+
+  </div>
+</a>

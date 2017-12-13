@@ -1,0 +1,17 @@
+{
+  "name": "dnd-monday",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/mandelbrot": "^1.2.0",
+    "chalk": "^2.3.0",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglifycss": "^1.0.8",
+    "path": "^0.12.7"
+  }
+}
