@@ -1,0 +1,74 @@
+@mixin grid-column-widths($name, $breakpoint) {
+
+  @include w-min($breakpoint) {
+    @for $i from 1 through $grid-columns {
+
+      &__column--#{$name}-#{$i} {
+        width: ($grid-column-width * $i);
+      }
+
+    }
+  }
+
+}
+
+@mixin grid-column-gutters($breakpoint, $gutter) {
+
+  @include w-min($breakpoint) {
+    &__column {
+      padding: ($gutter / 2);
+    }
+  }
+
+}
+
+@mixin grid-column-hide($name) {
+
+  &__column--hidden-#{$name} {
+    display: none !important;
+  }
+
+}
+
+@mixin grid-column-hidden($name, $min, $max) {
+
+  @if $max > 0px {
+
+    @include w-min-max($min, $max) {
+      @include grid-column-hide($name);
+    }
+
+  } @else {
+
+    @include w-min($min) {
+      @include grid-column-hide($name);
+    }
+
+  }
+
+}
+
+@mixin grid-gutter($breakpoint, $gutter) {
+  @include w-min($breakpoint) {
+
+    margin: (($gutter / 2) * -1);
+
+  }
+}
+
+@mixin grid-configuration() {
+  @each $name, $config in $grid-configuration {
+
+    $min: map-get($config, "min");
+    $max: map-get($config, "max");
+
+    $gutter: map-get($config, "gutter");
+
+    @include grid-column-widths($name, $min);
+    @include grid-column-gutters($min, $gutter);
+    @include grid-column-hidden($name, $min, $max);
+
+    @include grid-gutter($min, $gutter);
+
+  }
+}

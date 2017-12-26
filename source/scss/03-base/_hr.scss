@@ -1,0 +1,35 @@
+hr {
+
+  display: block;
+  position: relative;
+
+  padding: 20px;
+  margin: 0;
+
+  width: 100%;
+  height: auto;
+
+  border: 0;
+  outline: 0;
+
+  background: transparent;
+
+  &:before {
+
+    display: block;
+    content: "";
+    position: absolute;
+
+    width: auto;
+    height: auto;
+
+    top: 18px;
+    right: 0;
+    bottom: 18px;
+    left: 0;
+
+    background: $color-primary-light;
+
+  }
+
+}

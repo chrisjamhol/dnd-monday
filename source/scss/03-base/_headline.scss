@@ -1,0 +1,30 @@
+@mixin base-headline-size($level, $size) {
+  @include w-min($responsive-breakpoint-sm-min) {
+
+    h#{$level} {
+      font-size: $size;
+    }
+
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+  display: block;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: $font-size-base;
+  font-weight: $font-weight-regular;
+
+  color: $color-primary;
+
+}
+
+@include base-headline-size(1, $font-size-h1);
+@include base-headline-size(2, $font-size-h2);
+@include base-headline-size(3, $font-size-h3);
+@include base-headline-size(4, $font-size-h4);
+@include base-headline-size(5, $font-size-h5);
+@include base-headline-size(6, $font-size-h6);

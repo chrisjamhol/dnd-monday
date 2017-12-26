@@ -1,0 +1,15 @@
+// Widths
+$responsive-screen-xs: 290px;
+$responsive-screen-sm: 730px;
+$responsive-screen-md: 940px;
+$responsive-screen-lg: 1140px;
+
+// Breakpoints
+$responsive-breakpoint-xs-min: $responsive-screen-xs;
+$responsive-breakpoint-sm-min: $responsive-screen-sm;
+$responsive-breakpoint-md-min: $responsive-screen-md;
+$responsive-breakpoint-lg-min: $responsive-screen-lg;
+
+$responsive-breakpoint-xs-max: $responsive-screen-sm - 1;
+$responsive-breakpoint-sm-max: $responsive-screen-md - 1;
+$responsive-breakpoint-md-max: $responsive-screen-lg - 1;

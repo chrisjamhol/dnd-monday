@@ -1,0 +1,33 @@
+// Default List Style (BEM BREAK!)
+ul:not([class]) {
+
+  display: block;
+
+  padding: 0 0 20px 0;
+  margin: 0;
+
+  list-style: none;
+
+  > li:not([class]) {
+
+    display: block;
+    position: relative;
+
+    padding: 0 0 0 15px;
+    margin: 0;
+
+    &:before {
+
+      display: block;
+      position: absolute;
+
+      content: "-";
+
+      top: 0;
+      left: 0;
+
+    }
+
+  }
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "D&D Monday",
+  "paths": {
+    "sass": {
+      "sourcePath": "./source/scss/style.scss",
+      "sourceStyleguidePath": "./source/styleguide/styleguide.scss",
+      "dist": "./dist/css/"
+    },
+    "fonts": {
+      "source": "./source/fonts/**/*.*",
+      "dist": "./dist/fonts/"
+    },
+    "images": {
+      "source": "./source/images/**/*.*",
+      "dist": "./dist/images/"
+    }
+  },
+  "labels": {
+    "component": "World",
+    "docs": "Story"
+  }
+}
