@@ -1,5 +1,14 @@
 {
   "label": "Gilmore",
+  "handle": "gilmore",
   "context": {
+    "person": {
+      "class": "",
+      "name": "Gilmore",
+      "age": 38,
+      "image": "/images/npc/gilmore.jpg"
+    },
+    "link": "",
+    "notes": "Shopbetreiber"
   }
 }

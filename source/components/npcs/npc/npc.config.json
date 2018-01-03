@@ -1,0 +1,13 @@
+{
+  "hidden": true,
+  "label": "npc",
+  "handle": "npc",
+  "context": {
+    "person": {
+      "class": "",
+      "name": "",
+      "age": 0
+    },
+    "notes": ""
+  }
+}

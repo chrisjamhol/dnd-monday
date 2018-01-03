@@ -1,0 +1,31 @@
+<div class="row mt-3">
+  <div class="col">
+    <table class="table npc__info-table{{#if small}} table-sm{{/if}}">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col" colspan="2">
+            {{#if link}}
+              <a href="{{ link }}" target="_blank" class="text-light">{{ person.name }}</a>
+            {{else}}
+              {{ person.name }}
+            {{/if}}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#if person.class}}
+          <tr>
+            <td>Klasse</td>
+            <td><a href="https://www.dndbeyond.com/characters/classes/{{ person.class }}" target="_blank">{{ person.class }}</a></td>
+          </tr>
+        {{/if}}
+        {{#if person.age}}
+          <tr>
+            <td>Alter</td>
+            <td>{{ person.age }}</td>
+          </tr>
+        {{/if}}
+      </tbody>
+    </table>
+  </div>
+</div>

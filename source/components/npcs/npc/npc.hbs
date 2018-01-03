@@ -1,0 +1,32 @@
+<div class="row npc">
+  <div class="col">
+    <h1>
+      {{#if link}}
+        <a href="{{ link }}" target="_blank">{{ person.name }}</a>
+      {{else}}
+        {{ person.name }}
+      {{/if}}
+    </h1>
+    <div class="row justify-content-between">
+
+      <div class="col">
+        {{> @npc--info-table }}
+        <div class="mt-3"></div>
+        {{> @npc--info-text }}
+      </div>
+
+      <div class="col-md-auto">
+        {{#if person.image}}
+          <img class="img-fluid npc__image" src="{{path person.image}}" alt="Image - {{person.name}}"/>
+        {{/if}}
+        {{#if referencePersons}}
+          <div class="mt-3">
+            <p>Verknüpfte Personen</p>
+          </div>
+          {{> @npc--reference-persons }}
+        {{/if}}
+      </div>
+
+    </div>
+  </div>
+</div>

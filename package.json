@@ -4,6 +4,7 @@
   "dependencies": {
     "@frctl/fractal": "^1.1.7",
     "@frctl/mandelbrot": "^1.2.0",
+    "bootstrap": "^4.0.0-beta.3",
     "chalk": "^2.3.0",
     "fs": "0.0.1-security",
     "glob": "^7.1.2",

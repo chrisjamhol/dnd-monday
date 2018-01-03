@@ -1,0 +1,17 @@
+{
+  "label": "Daveak Badger",
+  "handle": "daveak",
+  "context": {
+    "person": {
+      "class": "bard",
+      "name": "Daveak Badger",
+      "age": 184,
+      "image": "/images/npc/daveak_badger.jpg"
+    },
+    "link": "",
+    "info": "Instrument Zither",
+    "referencePersons": [
+      {"handle": "\\@gilmore", "data": {"link": "gilmore", "small": true}}
+    ]
+  }
+}
