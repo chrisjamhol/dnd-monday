@@ -1,0 +1,22 @@
+{
+  "label": "Bagha Ditsky",
+  "handle": "bagha",
+  "context": {
+    "person": {
+      "class": "monk",
+      "subclass": "WayoftheDrunkenMaster",
+      "name": "Bagha Ditsky",
+      "age": 23,
+      "image": "/images/npc/bagha_ditsky.png"
+    },
+    "link": "",
+    "dndbeyond": "https://www.dndbeyond.com/profile/chrisjamhol/characters/1023697",
+    "info":
+      "<ul><li>Tipsy</li><li>Unh&ouml;flich</li><li>Flucht gerne</li><li>Ist in Daceaks Schuld (freiwillig)<ul><li>Wurde von ihm gerettet</li><li>Sie will nicht dar&uuml;ber reden!</li></ul></li></ul>"
+    ,
+    "keywords": "tipsy, rude, loyal",
+    "referencePersons": [
+      {"handle": "\\@daveak", "data": {"link": "daveak", "small": true}}
+    ]
+  }
+}

@@ -1,11 +1,10 @@
 {
-  "label": "Demo",
-  "handle": "demo",
+  "label": "Smillas Dämon",
   "context": {
     "chapters": [
       {
-        "headline": "Chapter 1",
-        "description": "Kurze Beschreibung für schnelle Reference",
+        "headline": "Daveak Badger",
+        "description": "Die Gruppe trifft aus Daveak Badger und seine Gefährten.",
         "text": "Beischreibung der Story mit richtigen Flavor-Text<br>und so weiter<br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
       },
       {
@@ -15,8 +14,8 @@
       }
     ],
     "persons": [
-      {"handle": "\\@gilmore", "data": {"link": "gilmore", "small": true}},
-      {"handle": "\\@daveak", "data": {"link": "daveak", "small": true}}
+      {"handle": "\\@daveak", "data": {"link": "daveak", "small": true}},
+      {"handle": "\\@bagha", "data": {"link": "bagha", "small": true}}
     ]
   }
 }

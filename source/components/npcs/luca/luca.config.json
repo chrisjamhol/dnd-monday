@@ -1,0 +1,22 @@
+{
+  "label": "Luca Thunderclap",
+  "handle": "luca",
+  "context": {
+    "person": {
+      "class": "wizward",
+      "subclass": "",
+      "name": "Luca Thunderclap",
+      "age": 25,
+      "image": "/images/npc/luca_thunderclap.jpg"
+    },
+    "link": "",
+    "dndbeyond": "https://www.dndbeyond.com/profile/chrisjamhol/characters/1023697",
+    "info":
+    ""
+  ,
+    "keywords": "scolar, unsocial, booky, highnosed",
+    "referencePersons": [
+      {"handle": "\\@daveak", "data": {"link": "daveak", "small": true}}
+    ]
+  }
+}

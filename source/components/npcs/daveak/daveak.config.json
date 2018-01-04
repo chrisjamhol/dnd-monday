@@ -5,13 +5,16 @@
     "person": {
       "class": "bard",
       "name": "Daveak Badger",
-      "age": 184,
+      "age": 132,
       "image": "/images/npc/daveak_badger.jpg"
     },
     "link": "",
-    "info": "Instrument Zither",
+    "dndbeyond": "https://www.dndbeyond.com/profile/chrisjamhol/characters/1023384",
+    "info":
+       "<ul><li>Gro&szlig;vater von Smilla</li><li>Barde</li><li>Verschwunden als Borris seine Herrschafft ausbaute. /</li><li>Auf der Suche nach den Wechslern und deren D&auml;monen</li><li><i>'Du hast mich ja nicht gesucht! Niemand von euch!'</i></li></ul><br>Instrument Zither"
+    ,
     "referencePersons": [
-      {"handle": "\\@gilmore", "data": {"link": "gilmore", "small": true}}
+      {"handle": "\\@bagha", "data": {"link": "bagha", "small": true}}
     ]
   }
 }

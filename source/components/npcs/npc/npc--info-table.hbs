@@ -13,16 +13,33 @@
         </tr>
       </thead>
       <tbody>
+        {{#if dndbeyond }}
+          <tr>
+            <td>D&D Beyond</td>
+            <td><a href="{{ dndbeyond }}" target="_blank">{{ person.name }}</a></td>
+          </tr>
+        {{/if}}
         {{#if person.class}}
           <tr>
             <td>Klasse</td>
-            <td><a href="https://www.dndbeyond.com/characters/classes/{{ person.class }}" target="_blank">{{ person.class }}</a></td>
+            <td>
+              <a href="https://www.dndbeyond.com/characters/classes/{{ person.class }}" target="_blank">{{ person.class }}</a>
+              {{#if person.subclass}}
+                , <a href="https://www.dndbeyond.com/characters/classes/{{ person.class }}#{{ person.subclass }}" target="_blank">{{ person.subclass }}</a>
+              {{/if}}
+            </td>
           </tr>
         {{/if}}
         {{#if person.age}}
           <tr>
             <td>Alter</td>
             <td>{{ person.age }}</td>
+          </tr>
+        {{/if}}
+        {{#if keywords}}
+          <tr>
+            <td>Info</td>
+            <td>{{ keywords }}</td>
           </tr>
         {{/if}}
       </tbody>
