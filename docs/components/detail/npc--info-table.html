@@ -190,16 +190,33 @@
         <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+        </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">if</span></span> dndbeyond }}</span><span class="xml">
+          <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>D&amp;D Beyond<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ dndbeyond }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span>&gt;</span></span><span class="hljs-template-variable">{{ person.name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+        </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">if</span></span>}}</span><span class="xml">
         </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">if</span></span> person.class}}</span><span class="xml">
           <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Klasse<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.dndbeyond.com/characters/classes/</span></span></span><span class="hljs-template-variable">{{ person.class }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span>&gt;</span></span><span class="hljs-template-variable">{{ person.class }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.dndbeyond.com/characters/classes/</span></span></span><span class="hljs-template-variable">{{ person.class }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span>&gt;</span></span><span class="hljs-template-variable">{{ person.class }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">if</span></span> person.subclass}}</span><span class="xml">
+                , <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://www.dndbeyond.com/characters/classes/</span></span></span><span class="hljs-template-variable">{{ person.class }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">#</span></span></span><span class="hljs-template-variable">{{ person.subclass }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span>&gt;</span></span><span class="hljs-template-variable">{{ person.subclass }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">if</span></span>}}</span><span class="xml">
+            <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
         </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">if</span></span>}}</span><span class="xml">
         </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">if</span></span> person.age}}</span><span class="xml">
           <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Alter<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span></span><span class="hljs-template-variable">{{ person.age }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+        </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">if</span></span>}}</span><span class="xml">
+        </span><span class="hljs-template-tag">{{#<span class="hljs-name"><span class="hljs-builtin-name">if</span></span> keywords}}</span><span class="xml">
+          <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Info<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span></span><span class="hljs-template-variable">{{ keywords }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
         </span><span class="hljs-template-tag">{{/<span class="hljs-name"><span class="hljs-builtin-name">if</span></span>}}</span><span class="xml">
       <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
@@ -356,6 +373,30 @@
         
         
         <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="bagha.html" data-pjax>
+                <span>Bagha Ditsky</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
             <a class="Tree-entityLink" href="daveak.html" data-pjax>
                 <span>Daveak Badger</span>
                 
@@ -401,6 +442,30 @@
         </li>
         
     
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="luca.html" data-pjax>
+                <span>Luca Thunderclap</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
 
             </ul>
         </li>
@@ -420,8 +485,8 @@
         
         
         <li class="Tree-item Tree-entity" data-role="item">
-            <a class="Tree-entityLink" href="demo.html" data-pjax>
-                <span>Demo</span>
+            <a class="Tree-entityLink" href="smilla-daveak.html" data-pjax>
+                <span>Smillas Dämon</span>
                 
 
 <div class="Status Status--unlabelled">
