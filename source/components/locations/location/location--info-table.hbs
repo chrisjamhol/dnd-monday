@@ -1,0 +1,49 @@
+<div class="row mt-3">
+  <div class="col">
+    <table class="table npc__info-table{{#if small}} table-sm{{/if}}">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col" colspan="2">
+            {{#if link}}
+              <a href="{{ link }}" target="_blank" class="text-light">{{ info.name }}</a>
+            {{else}}
+              {{ info.name }}
+            {{/if}}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#if info.size}}
+          <tr>
+            <td>Größe</td>
+            <td>{{ info.size }}</td>
+          </tr>
+        {{/if}}
+        {{#if info.population}}
+          <tr>
+            <td>Einwohner</td>
+            <td>{{ info.population }}</td>
+          </tr>
+        {{/if}}
+        {{#if info.populationSplit}}
+          <tr>
+            <td>Verteilung</td>
+            <td>{{ info.populationSplit }}</td>
+          </tr>
+        {{/if}}
+        {{#if info.age}}
+          <tr>
+            <td>Alter</td>
+            <td>{{ info.age }}</td>
+          </tr>
+        {{/if}}
+        {{#if keywords}}
+          <tr>
+            <td>Info</td>
+            <td>{{ keywords }}</td>
+          </tr>
+        {{/if}}
+      </tbody>
+    </table>
+  </div>
+</div>

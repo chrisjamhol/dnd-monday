@@ -1,0 +1,16 @@
+{
+  "hidden": true,
+  "label": "location",
+  "handle": "location",
+  "context": {
+    "images": [
+
+    ],
+    "info": {
+      "size": "",
+      "population": "",
+      "populationSplit": "",
+      "age": ""
+    }
+  }
+}

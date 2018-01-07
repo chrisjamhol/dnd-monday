@@ -1,0 +1,18 @@
+{
+  "label": "Kraghammer",
+  "handle": "kraghammer",
+  "context": {
+    "images": [
+      "/images/location/cliffkeepmountains/kraghammer/front.jpg",
+      "/images/location/cliffkeepmountains/kraghammer/anvile.jpg"
+    ],
+    "info": {
+      "name": "Kraghammer",
+      "size": "Large City",
+      "population": "43 550",
+      "populationSplit": "83% Dwarfen, 10% Gnome, 7% Other",
+      "age": "Sehr alt"
+    },
+    "keywords": "Metal, aus dem Stein, geometrische Formen"
+  }
+}
