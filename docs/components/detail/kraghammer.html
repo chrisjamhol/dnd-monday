@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    window.frctl = {
+        env: 'static'
+    };
+    </script>
+    <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
+    <link rel="shortcut icon" href="../../themes/mandelbrot/favicon.ico" type="image/ico">
+
+<link rel="stylesheet" href="../../themes/mandelbrot/css/default.css?cachebust=1.2.0" type="text/css">
+
+<link rel="stylesheet" href="../../css/styleguide.css?cachebust=1.2.0" type="text/css">
+
+
+<title>Kraghammer | D&D Monday</title>
+
+</head>
+<body>
+
+
+
+<div class="Frame" id="frame">
+
+    <div class="Frame-header">
+        <div class="Header">
+    <button class="Header-button Header-navToggle" data-action="toggle-sidebar">
+        <svg class="Header-navToggleIcon Header-navToggleIcon--open" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/>
+</svg>
+
+        <svg class="Header-navToggleIcon Header-navToggleIcon--closed" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+</svg>
+
+    </button>
+    <a href="../../index.html" class="Header-title" data-pjax>D&D Monday</a>
+</div>
+
+    </div>
+
+    <div class="Frame-body" data-role="body">
+
+        <div class="Frame-panel Frame-panel--main" data-role="main">
+            <div class="Frame-inner" id="pjax-container">
+            
+
+
+    
+    
+
+<div class="Pen" data-behaviour="pen" id="pen-8132251d182061ee205bdc46e3768ed2">
+
+    
+
+    <div class="Pen-panel Pen-header">
+    <h1 class="Pen-title">
+        <a class="Pen-previewLink" href="../preview/kraghammer.html" title="Component preview">
+            Kraghammer
+            <svg fill="#000000" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h4v-2H5V8h14v10h-4v2h4c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm-7 6l-4 4h3v6h2v-6h3l-4-4z"/>
+</svg>
+
+        </a>
+    </h1>
+    
+
+<div class="Status Status--tag">
+
+<label class="Status-label" style="background-color: #29CC29; border-color: #29CC29;">Ready</label>
+
+</div>
+
+
+</div>
+
+
+    <div class="Pen-panel Pen-preview Preview" data-behaviour="preview" id="preview-8132251d182061ee205bdc46e3768ed2">
+    <div class="Preview-wrapper" data-role="resizer">
+        <div class="Preview-resizer">
+            
+             <iframe
+                class="Preview-iframe"
+                data-role="window"
+                src="../preview/kraghammer.html"
+                sandbox="allow-same-origin allow-scripts allow-forms"
+                 style=""
+                marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" scrolling="yes">
+            </iframe>
+        </div>
+        <div class="Preview-handle" data-role="resize-handle"></div>
+        <div class="Preview-overlay"></div>
+    </div>
+</div>
+
+
+    <div class="Pen-handle Pen-handle--browser" data-role="resize-handle"></div>
+
+    <div class="Pen-panel Pen-info" data-role="info">
+    <div class="Browser" data-behaviour="browser" id="browser-8132251d182061ee205bdc46e3768ed2">
+
+    
+
+<div class="Browser-controls">
+    <ul class="Browser-tabs">
+        
+        
+        <li class="Browser-tab Browser-tab--html is-active " data-role="tab">
+            <a href="#browser-8132251d182061ee205bdc46e3768ed2-panel-html">HTML</a>
+        </li>
+        
+        
+        
+        <li class="Browser-tab Browser-tab--view" data-role="tab">
+            <a href="#browser-8132251d182061ee205bdc46e3768ed2-panel-view">View</a>
+        </li>
+        
+        
+        
+        <li class="Browser-tab Browser-tab--context" data-role="tab">
+            <a href="#browser-8132251d182061ee205bdc46e3768ed2-panel-context">Context</a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="Browser-tab Browser-tab--info" data-role="tab">
+            <a href="#browser-8132251d182061ee205bdc46e3768ed2-panel-info">Info</a>
+        </li>
+        
+        
+        
+        <li class="Browser-tab Browser-tab--notes" data-role="tab">
+            <a href="#browser-8132251d182061ee205bdc46e3768ed2-panel-notes">Notes</a>
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+    
+    
+<div class="Browser-panel Browser-code is-active" data-role="tab-panel" id="browser-8132251d182061ee205bdc46e3768ed2-panel-html">
+    <code class="Code Code--lang-html">
+        
+        <pre><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row location"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>
+            Kraghammer
+        <span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row justify-content-between"</span>&gt;</span>
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row mt-3"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table location__info-table"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"thead-dark"</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"col"</span> <span class="hljs-attr">colspan</span>=<span class="hljs-string">"2"</span>&gt;</span>
+                                        Kraghammer
+                                    <span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                            <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Größe<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Large City<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Einwohner<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>43 550<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Verteilung<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>83% Dwarfen, 10% Gnome, 7% Other<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Alter<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Sehr alt<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Info<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                    <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Metal, aus dem Stein, geometrische Formen<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                                <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+                            <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"mt-3"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-auto location__margin"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col text-center"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"img-fluid location__image"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"../../images/location/cliffkeepmountains/kraghammer/front.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Image - /images/location/cliffkeepmountains/kraghammer/front.jpg"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"mb-3"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"img-fluid location__image"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"../../images/location/cliffkeepmountains/kraghammer/anvile.png"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Image - /images/location/cliffkeepmountains/kraghammer/anvile.png"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"mb-3"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col"</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Heralded as the true living center of dwarven culture on the continent, the stronghold of Kraghammer was established by the surviving families of the high-mountain kingdom of Uthtor, said to have crumbled nearly a millennia ago in the
+                    Calamity. Rebuilt by survivors of Uthtor within the southern face of the Cliffkeep Mountains, Kraghammer grew with industrious vigor a few centuries ago with the discovery of rich veins of platinum and mithral, which remain its main
+                    source of wealth and trade power. It currently holds its ground as a long-standing autonomous city-state allied with the Council of Tal&amp;rsquo;Dorei, and the instigator of countless expeditions into the Cliffkeeps to extract the riches
+                    and long-forgotten secrets beneath the staggering peaks.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>An ominous walk of a thousand stairs climb the side of the mountain to the gates of the city carved from the mountain itself, just wide enough for two dwarves to walk abreast. Too steep and treacherous for carts or common beasts of burden,
+                    traders and trappers use giant goats to transport their goods to and from market, while wealthy dwarven merchant lords employ serfs and laborers to carry their goods. Kraghammer&amp;rsquo;s impenetrable adamantine gates stand at the end
+                    of a perilous bridge overlooking a hundred-foot chasm, and is guarded by three watchtowers carved into the mountain itself.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Within those gates, the massive stronghold is made up of three cylindrical levels called &amp;ldquo;slabs&amp;rdquo; that descend deep beneath the mountains. Kraghammer&amp;rsquo;s granite walls are lit by roaring fires, enchanted torches, and shimmering
+                    candlerock, which glows with internal fire. Even when the evening fires are extinguished, the amber light of the Bronzegrip Metalworks at the base of the city bathes the city in its warm glow.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"kgGoverment"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-4"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#kgGoverment"</span>&gt;</span>Government<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Kraghammer law is written by a consortium of the five most powerful houses within the city, each appointing a delegate to serve on their behalf. That tenuous union of houses is kept by the city&amp;rsquo;s executive officer, the Ironkeeper.
+                    The Ironkeeper is elected by the houses, carries a term of ten years, with no term limit, though most Ironkeepers rule for between three to five terms. The current sitting Ironkeeper is Gradim Greyspine of House Greyspine, halfway
+                    through his third term. His heroics in the recent war have made him beloved of his people, and his softer view of outlanders has made him a champion of the repressed.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The laws of the city are enforced by a military class of elite warriors called Carvers that act as guards, soldiers, and jailers under the guidance of the Ironkeeper. Becoming a Carver is a lengthy, rigorous, and taxing pursuit, and many
+                    who choose to join fail to complete their training and find another career path. As such, many Carvers are brought to it through family tradition, the pressure and expectation of the family name and a father&amp;rsquo;s honor being stronger
+                    than personal pain and preference. Once officially named, a Carver is given a homestead built into the center slab of the city, a set of masterwork armor and weapons, and a steady income.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"kgPrejudice"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-4"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#kgPrejudice"</span>&gt;</span>Prejudice<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>No non-dwarf has ever served as a delegate of the houses, let alone the Ironkeeper. Though dwarves individually are often trusting, honest folk, Kraghammer breeds a culture of xenophobia that prevents people of other races from participating
+                    in the highest levels of dwarven society. Even if they were born within Kraghammer, their epithet will always be outlander, surface-dweller, sun-eyes, or worse. Yet this startlingly overt racism seems to melt away for as long as an
+                    outlander is useful—and no longer. Greed drives Kraghammer; it fuels its furnaces and works its bellows, and many outlanders within Kraghammer do their best to live within its system, trying to eke out a meager living.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+                    The only exception to this xenophobia are the gnomes. When the gnomish city of Wittebak was sundered by hill giants nearly 400 years ago, the refugees were accepted into Kraghammer, bringing their innovative mechanical ideas to the growing community and
+                    cementing a kinship of convenience between the two races. As time passed, the partnership has flourished for both parties, and the drive to reclaim their old home has since been ever-postponed due to procrastination and lack of interest.
+                    Still, no gnome has ever served as a representative of the Houses, nor as Ironkeeper. Some minority peoples within Kraghammer are jealous of the gnomes’ place of “honor” within the dwarven community and seek to subvert them, while
+                    others implore the gnomes to use their voice to speak up for the outlanders.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khCrime"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-4"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khCrime"</span>&gt;</span>Crime<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Citizens of Emon who visit Kraghammer often marvel at how lawful and organized the dwarven enclave is. Crime is ostensibly low within Kraghammer thanks to the Carvers’ protection, but this peace comes at a cost. Corruption is rife within
+                    the Carvers, and within House Glorenthal, their patron house. Because of Glorenthal’s close ties with the Carvers, corruption has been hard to uncover within either organization. That all changed when a gnomish journalist named Ida
+                    Mudrake uncovered something damning within the Glorenthal vaults. The information has not been made public, but a massive trial is on the horizon, and the Carvers are in chaos.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khGeographyAndClimate"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-4"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khGeographyAndClimate"</span>&gt;</span>Geography and Climate<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Though the Cliffkeep Mountains themselves are blanketed in thick snow, the bone-piercing chill does not extend into Kraghammer itself. Heat from the Bronzegrip Metalworks and the other blast furnaces in the Bottom Slab rises and permeates
+                    the entire city, though the Top Slab still grows cold in the winter. The city itself is carved out of the granite core of Mount Kraghammer; though the dwarves rarely see the night sky, its walls still sparkle like starlight in the
+                    amber glow of the furnaces.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khTheTopSlab"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khTheTopSlab"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>The Top Slab<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"border-primary"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The Top Slab, also called the Arch, is the entry level of the city, built on a massive ring that sends off-shoot neighborhoods and tunnels deeper into the mountain around it. Here is where most residential life is rooted, with thousands
+                    of stone-built abodes dotting the walls, while popular taverns like the Firebrook Inn and the Ironhearth Tavern fill alcoves pushed into the rock. Most of the gnomish and non-dwarf population is relegated to a neighborhood called the
+                    “Otherwalk.” A fine layer of soot tends to coat much of this slab, due to imperfect ventilation from the industrious center slab. As members of the Kraghammer working class, “Topslabbers” either make the long commute to labor in the
+                    Bottom Slab or work in the Toppers’ farms above the mountain. Others are indentured servants to wealthy dwarves in the Middle Slab, and only return to their families on the Top Slab on their monthly day of rest.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khTheCenterSlab"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khTheCenterSlab"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>The Center Slab<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"border-primary"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The Center Slab, also referred to as the Heart, marks the widest and most varied rung on the journey through Kraghammer, and is stratified between the the residences of Kraghammer’s dwarven elite and its wealthy merchant class. At the
+                    exact center of the slab—dwarves are very particular about geometrical symbolism—is the Pyrethrone, seat of the Ironkeeper. Radiating out from the Pyrethrone are the various fortress-manors of the dwarven noble houses, with several
+                    Carver barracks in easy reach.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Just below, the outer rings of the Center Slab are occupied by most of the city’s non-mining businesses, from smithies, breweries, and jewelers, to tailors, butchers, and even tinkerers like the gnome-run Cracksackle Union. The Hunter’s
+                    Club is also well known as the chief provider for non-imported meats to the city, sending parties atop the mountain or in the nearby Torian Forest for wild game. The extravagant marble temple known as Allhammer’s Will stands on the
+                    center slab of the city, the grandest of all shrines to the most worshiped deity under the mountain. Enormous in size and impeccable in detail and architectural design, this hall calls artisans and crafters throughout the city for
+                    inspiration.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Of the five noble houses, only two conduct their affairs entirely in the Center Slab. The magically talented Lord Steddos Thunderbrand and his family are known to rarely leave their mansion, except on business with the Ironkeeper. Wallera
+                    Glorenthar used to oversee the combat training of all Carvers within Kraghammer, but the scandal that rocked her house has called her leadership into question. She is currently on leave.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khTheBottomSlab"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khTheBottomSlab"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>The Bottom Slab<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"border-primary"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The Bottom Slab, or the Pit, is the industrious center of Kraghammer, boasting the most blast furnaces per square mile in all of Tal’Dorei, courtesy of the Bronzegrip Metalworks and their competitors. The expansive Keenstone Quarry is
+                    chief among the numerous mining operations that have tunneled through the depths of the mountains—depths plumbed by Vox Machina early in their adventures as they searched for Lady Kima of Vord, an adventure that saw them overthrow
+                    the duergar of the Emberhold and the hateful aberrations of Yug’Voril. A network of fungus-farming paths called the Glowgrove works its way around this level, passing through all sorts of caverns. The mushrooms are harvested by the
+                    Toppers, the dwarven agricultural league that got their name from the small topside farms they tend above the city.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Three of the five dwarven houses has business interests in the Bottom Slab, though they direct its operations from the next tier up. Nostoc Greyspine is the grim overseer of Keenstone Quarry; he swears that his relationship to Ironkeeper
+                    Gradim Greyspine gives him no special privileges. Haddi Bronzegrip is the foredwarf of the Bronzegrip Metalworks; she claims to be the wealthiest dwarf in the North. Blenton Zuurthom is an architectural savant, and one of the older
+                    and kinder 68 Chapter 2: Gazetteer of Tal’Dorei tal’dorei campaign guide noble dwarves; he tries his best to oversee every major construction project in the Bottom Slab.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khLandmarks"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-4"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khLandmarks"</span>&gt;</span>Landmarks<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khTheStarshrine"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khTheStarshrine"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>The Starshrine<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"border-primary"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Most dwarves worship the Allhammer, and his teachings of community and ancestral piety have been all but completely subsumed into Kraghammer’s culture at large. For outlanders with different faiths, however, the monolithic religious culture
+                    can feel inescapable. When the world shook at the coming of the Chroma Conclave, tremors rocked the upper layers of Kraghammer, causing certain caverns to collapse—and in some cases, reveal places of great beauty. The Starshrine was
+                    established near the Otherwalk inside a grotto whose granite walls mysteriously shine with a perfect replica of the stars in the night sky. Here, marginalized people of all faiths can worship in peace. If a character prays to a Good
+                    or Neutral deity here, there is a 1% chance per character level that their prayer is answered, as the cleric’s Divine Intervention feature.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khCracksackleHeadquarters"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khCracksackleHeadquarters"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Cracksackle Headquarters<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"border-primary"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The Gnomish-designed Cracksackle guildhall looks unlike anything in Kraghammer. It is made of a dozen glistening steel domes, like sleek, metal igloos, and the light of unusual experiments flicker through its slitted windows at all hours
+                    of the night. While intrinsically tied to the Bronzegrip Metalworks for resources, contacts, and distribution, the Cracksackle gnomes’ inventive contributions to mining and masonry technology have made them indispensable to the dwarven
+                    elite.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>On any working day, a dozen gnomish tinkerers will set up shop in the courtyard, selling strange and untested devices they have made in their workshops. The GM determines which non-magical curiosities can be purchased here, but some include:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>Dynamite (50 gp)<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>, range 30 ft., 4d6 fire damage to all creatures and objects in 20 foot radius (DC 12 Dexterity save for half), detonates at the start of the thrower’s next turn after 6-second fuse<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>Glue bomb (50 gp)<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>, range 30 ft., creatures within 20 foot radius must make a DC 12 Strength or Dexterity saving throw (target’s choice) or be restrained. A creature may make another DC 12 Strength check as an action to escape.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>Stink bomb (25 gp)<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>, range 30 ft., creatures within 20 foot radius must make a DC 12 Constitution saving throw or be poisoned for 1d6 rounds, detonates after 6-second fuse<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>Wind glider (200 gp)<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>, requires 1 minute to harness. While harnessed and falling, the bearer falls at 30 feet per round, and the wind glider carries the bearer 40 feet in a line each round until they land. You can change direction
+                        each round. While harnessed, your movement is halved, and you have disadvantage on attack rolls. A wind glider has an AC of 10, and 5 hit points.<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"khHallofBurningMushrooms"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#khHallofBurningMushrooms"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Hall of Burning Mushrooms<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"border-primary"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The Bronzegrip Metalworks just carved deeper into the mountain to expand their furnaces, only to discover the most magnificent cavern; a mile-wide cave filled with bioluminescent purple mushrooms. Industry had to move in, and the Bronzegrips
+                    hired Wyrmhide Thunderbrand and his pyromancer brigade to torch the cavern. The mushrooms never stopped burning, and the myconoids that lived in the fungal forest never stopped fighting. PCs known within Kraghammer may be requested
+                    by House Bronzegrip or Thunderbrand to cut through the inferno and destroy the myconoid monarch.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"mb-5"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></pre>
+        
+    </code>
+</div>
+
+    
+    <div class="Browser-panel Browser-code" data-role="tab-panel" id="browser-8132251d182061ee205bdc46e3768ed2-panel-view">
+    <code class="Code Code--lang-handlebars">
+        <pre><span class="xml"></span><span class="hljs-template-variable">{{&gt; <a href="location.html">@location</a> }}</span><span class="xml"></span></pre>
+    </code>
+</div>
+
+    
+    <div class="Browser-panel Browser-code" data-role="tab-panel" id="browser-8132251d182061ee205bdc46e3768ed2-panel-context">
+    <code class="Code Code--lang-json">
+        
+            
+            <pre>{
+  <span class="hljs-attr">"images"</span>: [
+    <span class="hljs-string">"/images/location/cliffkeepmountains/kraghammer/front.jpg"</span>,
+    <span class="hljs-string">"/images/location/cliffkeepmountains/kraghammer/anvile.png"</span>
+  ],
+  <span class="hljs-attr">"info"</span>: {
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Kraghammer"</span>,
+    <span class="hljs-attr">"size"</span>: <span class="hljs-string">"Large City"</span>,
+    <span class="hljs-attr">"population"</span>: <span class="hljs-string">"43 550"</span>,
+    <span class="hljs-attr">"populationSplit"</span>: <span class="hljs-string">"83% Dwarfen, 10% Gnome, 7% Other"</span>,
+    <span class="hljs-attr">"age"</span>: <span class="hljs-string">"Sehr alt"</span>
+  },
+  <span class="hljs-attr">"keywords"</span>: <span class="hljs-string">"Metal, aus dem Stein, geometrische Formen"</span>,
+  <span class="hljs-attr">"description"</span>: <span class="hljs-literal">null</span>
+}</pre>
+            
+        
+    </code>
+</div>
+
+    
+    
+
+
+
+
+    
+    <div class="Browser-panel" data-role="tab-panel" id="browser-8132251d182061ee205bdc46e3768ed2-panel-info">
+    <ul class="Meta">
+        <li class="Meta-item">
+            <strong class="Meta-key">Handle:</strong>
+            <span class="Meta-value">@kraghammer</span>
+        </li>
+        
+        
+        
+        
+        
+        <li class="Meta-item">
+            <strong class="Meta-key">Preview:</strong>
+            <span class="Meta-value">
+                <ul>
+                    <li><a data-no-pjax href="../preview/kraghammer.html"><span>With layout</span> <svg fill="#000000" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h4v-2H5V8h14v10h-4v2h4c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm-7 6l-4 4h3v6h2v-6h3l-4-4z"/>
+</svg>
+</a></li>
+                    <li><a data-no-pjax href="../render/kraghammer.html"><span>Component only</span> <svg fill="#000000" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h4v-2H5V8h14v10h-4v2h4c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm-7 6l-4 4h3v6h2v-6h3l-4-4z"/>
+</svg>
+</a></li>
+                </ul>
+            </span>
+        </li>
+        <li class="Meta-item">
+            <strong class="Meta-key">Filesystem Path:</strong>
+            <span class="Meta-value">source\components\locations\cliffkeepMountains\kraghammer\kraghammer.hbs</span>
+        </li>
+        
+        <li class="Meta-item">
+            <strong class="Meta-key">References <em class="Meta-count">(1)</em>:</strong>
+            <span class="Meta-value Meta-value--linkList">
+            
+                <a href="location.html">@<span>location</span></a>
+            
+            </span>
+        </li class="Meta-item">
+        
+        
+    </ul>
+</div>
+
+    
+    <div class="Browser-panel Browser-notes" data-role="tab-panel" id="browser-8132251d182061ee205bdc46e3768ed2-panel-notes">
+    <div class="Prose Prose--condensed">
+        
+        <p class="Browser-isEmptyNote">There are no notes for this item.</p>
+        
+    </div>
+</div>
+
+    
+
+</div>
+
+</div>
+
+
+    
+
+</div>
+
+
+            </div>
+        </div>
+
+        <div class="Frame-handle" data-role="frame-resize-handle"></div>
+        
+        <div class="Frame-panel Frame-panel--sidebar" data-role="sidebar">
+            <nav class="Navigation">
+
+    
+<div class="Navigation-group">
+
+<div class="Tree" data-behaviour="tree" id="tree-components">
+    <h3 class="Tree-title">World</h3>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        <li class="Tree-item Tree-collection Tree-depth-2" data-behaviour="collection" id="tree-components-collection-npcs">
+            <h4 class="Tree-collectionLabel" data-role="toggle">
+                <span>NPCs</span>
+            </h4>
+            <ul class="Tree-collectionItems" data-role="items">
+            
+            
+            
+            
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="bagha.html" data-pjax>
+                <span>Bagha Ditsky</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="daveak.html" data-pjax>
+                <span>Daveak Badger</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="gilmore.html" data-pjax>
+                <span>Gilmore</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="luca.html" data-pjax>
+                <span>Luca Thunderclap</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
+        
+        <li class="Tree-item Tree-collection Tree-depth-2" data-behaviour="collection" id="tree-components-collection-locations">
+            <h4 class="Tree-collectionLabel" data-role="toggle">
+                <span>Locations</span>
+            </h4>
+            <ul class="Tree-collectionItems" data-role="items">
+            
+            
+            
+            
+    
+        
+        <li class="Tree-item Tree-collection Tree-depth-3" data-behaviour="collection" id="tree-components-collection-cliffkeepmountains">
+            <h4 class="Tree-collectionLabel" data-role="toggle">
+                <span>The Cliffkeep Mountains</span>
+            </h4>
+            <ul class="Tree-collectionItems" data-role="items">
+            
+            
+            
+            
+    
+        
+        
+        <li class="Tree-item Tree-entity is-current" data-state="current" data-role="item">
+            <a class="Tree-entityLink" href="" data-pjax>
+                <span>Kraghammer</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
+        
+        <li class="Tree-item Tree-collection Tree-depth-2" data-behaviour="collection" id="tree-components-collection-stories">
+            <h4 class="Tree-collectionLabel" data-role="toggle">
+                <span>Story</span>
+            </h4>
+            <ul class="Tree-collectionItems" data-role="items">
+            
+            
+            
+            
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="story-smilla-daveak.html" data-pjax>
+                <span>Smillas Dämon</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</div>
+
+
+
+    
+<div class="Navigation-group">
+
+<div class="Tree" data-behaviour="tree" id="tree-docs">
+    <h3 class="Tree-title">Story</h3>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="../../index.html" data-pjax>
+                <span>Overview</span>
+                
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</div>
+
+
+
+    
+
+
+</nav>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="../../themes/mandelbrot/js/mandelbrot.js?cachebust=1.2.0"></script>
+
+
+
+</body>
+</html>
