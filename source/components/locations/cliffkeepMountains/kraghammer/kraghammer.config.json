@@ -4,7 +4,7 @@
   "context": {
     "images": [
       "/images/location/cliffkeepmountains/kraghammer/front.jpg",
-      "/images/location/cliffkeepmountains/kraghammer/anvile.jpg"
+      "/images/location/cliffkeepmountains/kraghammer/anvile.png"
     ],
     "info": {
       "name": "Kraghammer",
@@ -13,6 +13,7 @@
       "populationSplit": "83% Dwarfen, 10% Gnome, 7% Other",
       "age": "Sehr alt"
     },
-    "keywords": "Metal, aus dem Stein, geometrische Formen"
+    "keywords": "Metal, aus dem Stein, geometrische Formen",
+    "description": ""
   }
 }

@@ -1,0 +1,10 @@
+{{#if images}}
+  <div class="row">
+    <div class="col text-center">
+      {{#each images}}
+        <img class="img-fluid location__image" src="{{path this}}" alt="Image - {{this}}"/>
+        <div class="mb-3"></div>
+      {{/each}}
+    </div>
+  </div>
+{{/if}}
