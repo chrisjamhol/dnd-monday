@@ -1,0 +1,22 @@
+{
+  "label": "Emon",
+  "handle": "emon",
+  "context": {
+    "images": [
+      "/images/location/theBladeshimmerShoreline/emon/map.jpg",
+      "/images/location/theBladeshimmerShoreline/emon/front.png",
+      "/images/location/theBladeshimmerShoreline/emon/skyship.png"
+    ],
+    "info": {
+      "name": "Emon, The City of Fellowship",
+      "size": "Metropolis",
+      "population": "287 500",
+      "populationSplit": "68% Humans, 7% Dwarfs, 6% Elven, 19% Other"
+    },
+    "taverns": [
+      "The Laughing Lamia", "Diamond Nest Tavern", "Howarth’s (Textiles and Beer)"
+    ],
+    "keywords": "Cultural heart of human civilization | nexus of politics, justice, business industry, and education",
+    "description": "Cultural heart of human civilization | nexus of politics, justice, business industry, and education"
+  }
+}

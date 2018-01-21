@@ -1,9 +1,13 @@
 {
   "label": "Streetdrug in Emon",
   "context": {
+    "locations": [
+      {"handle": "\\@emon", "data": {"link": "emon", "small": true}}
+    ],
     "persons": [
       {"handle": "\\@daveak", "data": {"link": "daveak", "small": true}},
-      {"handle": "\\@bagha", "data": {"link": "bagha", "small": true}}
+      {"handle": "\\@bagha", "data": {"link": "bagha", "small": true}},
+      {"handle": "\\@luca", "data": {"link": "luca", "small": true}}
     ]
   }
 }

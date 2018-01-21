@@ -43,6 +43,12 @@
             <td>{{ keywords }}</td>
           </tr>
         {{/if}}
+        {{#if taverns}}
+          <tr>
+            <td>Taverns</td>
+            <td>{{#each taverns}}{{this}}{{#if @last}}{{else}}, {{/if}}{{/each}}</td>
+          </tr>
+        {{/if}}
       </tbody>
     </table>
   </div>

@@ -1,10 +1,23 @@
 <div class="row">
   <div class="col">
-    <p class="display-4">{{ headline }}</p>
+    <p
+      class="display-4"
+      {{#if toggleID}}
+        data-toggle="collapse" data-target="#{{toggleID}}"
+      {{/if}}
+    >
+      {{ headline }}
+    </p>
     <p class="display-5 font-italic">{{ description }}</p>
-    <p>{{{text}}}</p>
-    {{#>@partial-block}}
-    {{/@partial-block}}
+    {{#if toggleID}}
+      <div id="{{toggleID}}" class="collapse">
+    {{/if}}
+      <p>{{{text}}}</p>
+      {{#>@partial-block}}
+      {{/@partial-block}}
+    {{#if toggleID}}
+      </div>
+    {{/if}}
   </div>
 </div>
 <div class="row mt-5"></div>
