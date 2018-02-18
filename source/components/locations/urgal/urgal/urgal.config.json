@@ -1,0 +1,19 @@
+{
+  "label": "Urgal",
+  "handle": "urgal",
+  "context": {
+    "images": [
+    ],
+    "info": {
+      "name": "Urgal",
+      "size": "small",
+      "population": "5000",
+      "populationSplit": ""
+    },
+    "taverns": [
+      "Todd"
+    ],
+    "keywords": "sehr alt, Rebellenstützpunkt gehen Boris, versteckt, umgedrehte Gravitation",
+    "description": ""
+  }
+}
