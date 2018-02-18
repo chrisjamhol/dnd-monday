@@ -1,0 +1,11 @@
+.story {
+  
+  &__quote {
+    border-radius: 15px;
+    border: 1px solid $border-color;
+    padding: 15px;
+    background-color: $dark;
+    color: $white;
+  }
+  
+}
