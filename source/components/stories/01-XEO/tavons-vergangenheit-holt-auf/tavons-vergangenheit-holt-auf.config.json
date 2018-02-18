@@ -1,0 +1,12 @@
+{
+  "label": "Tavons Verganghenheit holt auf",
+  "order": "002",
+  "context": {
+    "locations": [
+      {"handle": "\\@emon", "data": {"link": "emon", "small": true}}
+    ],
+    "persons": [
+      {"handle": "\\@graylockmeryl", "data": {"link": "graylockmeryl", "small": true}}
+    ]
+  }
+}
