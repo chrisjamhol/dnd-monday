@@ -1,5 +1,6 @@
 {
   "label": "Streetdrug in Emon",
+  "order": "001",
   "context": {
     "locations": [
       {"handle": "\\@emon", "data": {"link": "emon", "small": true}}

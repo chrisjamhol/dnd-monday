@@ -1,0 +1,12 @@
+{
+  "label": "XEO - Overview",
+  "order": "01",
+  "context": {
+    "persons": [
+      {"handle": "\\@daveak", "data": {"link": "daveak", "small": true}},
+      {"handle": "\\@bagha", "data": {"link": "bagha", "small": true}},
+      {"handle": "\\@luca", "data": {"link": "luca", "small": true}},
+      {"handle": "\\@orgrim", "data": {"link": "orgrim", "small": true}}
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "label": "Orgrim Schwarzfaust",
+  "handle": "orgrim",
+  "context": {
+    "person": {
+      "class": "babarian",
+      "subclass": "PathoftheStormHerald",
+      "name": "Orgrim Schwarzfaust",
+      "age": 30,
+      "image": "/images/npc/orgrim.png"
+    },
+    "link": "",
+    "dndbeyond": "https://www.dndbeyond.com/profile/chrisjamhol/characters/1673375",
+    "info":
+      "Von XEO 'underdrückt'"
+    ,
+    "keywords": "intelligent, collected, orc, inspiring leader, storm herald",
+    "referencePersons": [
+
+    ]
+  }
+}
