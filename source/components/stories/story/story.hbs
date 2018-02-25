@@ -1,12 +1,12 @@
 <div class="row">
-  <div class="col-8">
+  <div class="col-sm-8">
     {{#each chapters}}
       {{> @story--chapter }}
     {{/each}}
     {{#>@partial-block}}
     {{/@partial-block}}
   </div>
-  <div class="col">
+  <div class="col-sm-4">
     {{> @story--locations }}
     {{> @story--charakters }}
   </div>
