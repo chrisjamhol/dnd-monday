@@ -1,0 +1,23 @@
+.storyboard {
+  
+  &__intro {
+    display: none;
+  }
+
+  &__milestone {
+
+    &-chapters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+
+
+  
+  &__chapter {
+    //width: 20vw;
+    //height: 20vw;
+    border: 1px dashed lightblue;
+  }
+
+}

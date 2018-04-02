@@ -1,0 +1,11 @@
+<div class="storyboard__milestone">
+  {{#if headline}}
+    <h2 class="milestone__headline">{{ headline }}</h2>
+  {{/if}}
+
+  <div class="storyboard__milestone-chapters">
+    {{#> @partial-block}}
+    {{/@partial-block}}
+  </div>
+
+</div>
